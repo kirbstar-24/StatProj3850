@@ -22,5 +22,3 @@ ratings <- read.csv("~/StatProject/TheMovieDataset/ratings.csv")
 animated_movies <- movies_metadata %>% filter(genres == "Animation")
 animated_movies <- movies_metadata %>% 
   filter(str_detect(genres, "Animation"))
-
-test
